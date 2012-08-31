@@ -4,7 +4,7 @@ public class FunUtils {
 	public static String caclDiskSpace(final long bytes){
 		float perLength = 1024.0f;
 		String str = null;
-		double _len = bytes;
+		double _len = bytes;345345345345
 		if (_len < perLength) {
 			str = String.format("%.0fBytes", _len);
 			return str;
